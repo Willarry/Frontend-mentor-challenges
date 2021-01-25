@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 239, 245);
+    font-family: "karla";
+    font-size: 100%;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 30px;
+}
+.container{
+    width: 80%;
+    padding: 30px;
+    margin-top: 345px;
+    margin:auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 1px #00000024;
+}
+.com-header{
+    color:hsl(179, 62%, 43%)
+}
+.community-sec h3{
+    color: hsl(71, 73%, 54%);
+    margin-top: 23px;
+}
+.community-sec p{
+    color:hsl(218, 22%, 67%);
+    margin-top: 23px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+}
+.flex-contain{
+    margin: -30px;
+    color: white;
+}
+.flex-left{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    line-height: 1.6;
+}
+.flex-left p{
+    color:rgba(255, 255, 255, 0.856);
+}
+.flex-right{
+    background-color: hsl(179, 62%, 45%);
+    padding: 30px;
+}
+.date{
+    position: absolute;
+    color: rgba(247, 243, 243, 0.589);
+    margin-top:10px;
+    margin-left: 17px;
+}
+.dol{
+    font-size: 34px;
+    font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 100%;
+    padding: 15px;
+    margin-top: 26px;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: hsl(71, 73%, 48%);
+}
+.flex-right-header {
+    color: white;
+}
+.right-container{
+    color: rgba(255, 255, 255, 0.856);
+    margin-top: 20px;
+    list-style: none;
+    line-height: 1.4;
+}
+
+@media screen and (max-width:768px){
+    footer{
+        display: none;
+    }
+}
+.attribution{
+    text-align: center;
+    color: white;
+}
+.attribution a{
+    color: wheat;
+}
+@media screen and (min-width:768px){
+    .container{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-contain{
+        display: flex;
+    }
+    .flex-left{
+        width: 50%;
+    }
+    .flex-right{
+        width: 50%;
+    }
+    footer{
+        margin-top: 150px;
+    }
+    .attribution{
+        color: #000000;
+        
+        margin-bottom: 20px;
+    }
+    .attribution a{
+        color: #00000091;
+    }
+}
