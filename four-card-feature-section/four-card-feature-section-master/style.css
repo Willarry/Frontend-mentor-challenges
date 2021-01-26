@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main {
+  width: 70%;
+  margin:0 auto;
+  width: 324px;
+}
+header {
+  text-align: center;
+  white-space: nowrap;
+  padding: 70px 0px 50px 0px;
+}
+header h1{
+  font-weight:200;
+  font-size: 25px;
+  color: hsl(234, 12%, 34%);
+}
+header h2{
+  font-weight: 600;
+  font-size: 26px;
+  color:hsl(234, 12%, 34%);
+}
+.top-container p{
+  text-align: center;
+  width: 94%;
+  padding-left: 10px;
+  color:hsl(229, 6%, 66%);
+}
+.box-section {
+  margin-top: 4rem;
+}
+.box-section h3{
+  color:  hsl(234, 12%, 34%);
+  font-size: 1.4rem;
+}
+.box-section p{
+  color: hsl(229, 6%, 66%);
+}
+.box-section img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.4rem;
+  width: 60px;
+}
+.supervisor-container,
+.team-container,
+.karma-container,
+.calc-container {
+  font-size: 13px;
+  position: relative;
+  padding: 1.3rem;
+  margin: 20px;
+  height: 200px;
+  border: 3px solid transparent;
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.team-container {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.karma-container {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.calc-container {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.attribution { font-size: 13px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (min-width:768px){
+  body{
+    font-size: 18px;
+    padding: 0px 30px;
+  }
+  main{
+    width: initial;
+    left: 0;
+    margin:0 30px;
+  }
+  header h1, header h2{
+    font-size: 2em;
+  }
+  .top-container{
+    margin-top: -30px;
+  }
+  .top-container p{
+    white-space: pre-wrap;
+    margin-top: -30px;
+    font-size: 1rem;
+  }
+  .box-section{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+  }
+  .col-2{
+    margin-top: -120px;
+  }
+}
