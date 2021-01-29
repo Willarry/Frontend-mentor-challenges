@@ -7,6 +7,7 @@
 body {
     font-family: "Kumbh sans", sans-serif;
     font-size: 18px;
+    color: hsl(229, 23%, 23%);
 }
 .main {
     background: hsl(185, 75%, 39%);
@@ -16,15 +17,15 @@ body {
     align-items: center;
 }
 .container {
-    background: white;
+    background: hsl(0, 0%, 100%);
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 15px;
     overflow: hidden;
 }
 .upper-container {
     height: 150px;
-    width: 300px;
+    width: 350px;
     background: url(./images/bg-pattern-card.svg);
     background-size: cover;
 }
@@ -34,7 +35,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: -50px auto -30px auto;
-    border: 5px solid white;
+    border: 5px solid hsl(0, 0%, 100%);
 }
 .img-sec img{
     display: block;
@@ -48,17 +49,18 @@ body {
     line-height: 1.8rem;
 }
 .card-body .name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .card-body .city {
     margin-top: 10px;
 }
 .card-body .age, .card-body .city {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:  hsl(0, 0%, 59%);
 }
 .activity-container .act {
+    display:block;
     font-weight: 300;
     font-size: .9rem;
     color: hsl(0, 0%, 59%);
@@ -66,9 +68,13 @@ body {
 }
 .activity-container {
     padding-top: 22px;
+    padding-right: 40px;
+    padding-left: 40px;
     border-top: 1px solid hsl(0, 10%, 88%);
     margin-top: 23px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 .attribution { 
