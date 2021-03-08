@@ -10,6 +10,9 @@ body {
     color: hsl(229, 23%, 23%);
 }
 .main {
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: -90% -500px, 170% 400px;
+    background-repeat: no-repeat;
     background: hsl(185, 75%, 39%);
     min-height: 100vh;
     display: flex;
